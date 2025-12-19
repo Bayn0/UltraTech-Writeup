@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Dec 17 01:56:01 2025 as: /usr/lib/nmap/nmap -&#45;privileged -sS -sV -sC -T4 -p- -oX scan.xml 10.x.x.x -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sS -sV -sC -T4 -p- -oX scan.xml 10.x.x.x " start="1765932961" startstr="Wed Dec 17 01:56:01 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.x.x.x" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1765932969" endtime="1765933005"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.x.x.x" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65531">
+<extrareasons reason="reset" count="65531" proto="tcp" ports="1-20,23-8080,8082-31330,31332-65535"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="ftp" product="vsftpd" version="3.0.5" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd:3.0.5</cpe></service></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.13" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 95:2a:81:ce:eb:3d:04:12:7e:5d:a8:2f:15:e2:21:a9 (RSA)&#xa;  256 33:35:a1:1f:8a:3e:ae:e4:ce:95:fe:33:d6:3e:13:d3 (ECDSA)&#xa;  256 c7:5e:e5:c3:df:8c:95:f8:0a:73:ea:22:15:cb:a1:9f (ED25519)"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQC3Bb3cOgOCmfAmGVCk6Qeh/GQkAinxKTdnY9+wWTUlCX+AKyJGqGP4jN/nKPmdPFdayczUFx2n0VlrF3jhdaZs7udmMbSTnbcrDbk3zaMgTguN4DKzmT0iDHxLEwkStGUZrLjmx1mJSmm/fXpgiY/Np/+SC1rZMZXUdlHwJ7G71NlT/uWHpw1lfci2BJZVve/A2T73ddTTV+Qnx13es6GVA6dL/O746VdUbDZKucXf55bKBT3YafCVR43DOHGA1QD+75IhOOP/r4Qpa7iETQ9PEm5vwC+U+1cjjrbAZrydXutoH6hvht+kZ/m9lEy3WGG8nae7OfIT4g0/W+qyUmn1InNAnjf2ujh4rvPoovZMMGoqMV+IAeFh/sYDKK2TRdRA7GVnGiNvvPfva5P9YXGNV1UPC/RVHOJ1fjEDNSU/v6fiOHV7X/yYv1l/c8g3+4qKcFPtg0DFKbqhUjwYNN4t37AWun1ityVt7RDzcvESQUAXGbBptI95kHfXYY15Xpk=</elem>
+<elem key="bits">3072</elem>
+<elem key="fingerprint">952a81ceeb3d04127e5da82f15e221a9</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBM9Xt+1py8+BuCP2F09gMopPHMmg2Bd/JVaJX6JrttPVF8HxANmx7ffCCt368gBtbeWet/qhb2CqZrmBOv4jcNA=</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">3335a11f8a3eaee4ce95fe33d63e13d3</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIETRqT2cuCZFoJd3h5o2Rcued/XdoyZ/9/OILZy+o/Dr</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">c75ee5c3df8c95f80a73ea2215cba19f</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" product="Node.js Express framework" method="probed" conf="10"><cpe>cpe:/a:nodejs:node.js</cpe></service><script id="http-cors" output="HEAD GET POST PUT DELETE PATCH"/><script id="http-title" output="Site doesn&apos;t have a title (text/html; charset=utf-8)."></script></port>
+<port protocol="tcp" portid="31331"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-title" output="UltraTech - The best of technology (AI, FinTech, Big Data)"><elem key="title">UltraTech - The best of technology (AI, FinTech, Big Data)</elem>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script></port>
+</ports>
+<times srtt="43222" rttvar="659" to="100000"/>
+</host>
+<runstats><finished time="1765933005" timestr="Wed Dec 17 01:56:45 2025" summary="Nmap done at Wed Dec 17 01:56:45 2025; 1 IP address (1 host up) scanned in 43.96 seconds" elapsed="43.96" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

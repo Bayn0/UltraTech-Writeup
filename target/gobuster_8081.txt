@@ -1,0 +1,2 @@
+/auth                [32m (Status: 200)[0m [Size: 39]
+/ping                [31m (Status: 500)[0m [Size: 1094]

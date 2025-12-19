@@ -1,0 +1,27 @@
+/.hta.html           [33m (Status: 403)[0m [Size: 281]
+/.hta                [33m (Status: 403)[0m [Size: 281]
+/.hta.txt            [33m (Status: 403)[0m [Size: 281]
+/.hta.php            [33m (Status: 403)[0m [Size: 281]
+/.hta.js             [33m (Status: 403)[0m [Size: 281]
+/.htaccess           [33m (Status: 403)[0m [Size: 281]
+/.htaccess.html      [33m (Status: 403)[0m [Size: 281]
+/.htaccess.php       [33m (Status: 403)[0m [Size: 281]
+/.htaccess.js        [33m (Status: 403)[0m [Size: 281]
+/.htaccess.txt       [33m (Status: 403)[0m [Size: 281]
+/.htpasswd           [33m (Status: 403)[0m [Size: 281]
+/.htpasswd.php       [33m (Status: 403)[0m [Size: 281]
+/.htpasswd.html      [33m (Status: 403)[0m [Size: 281]
+/.htpasswd.txt       [33m (Status: 403)[0m [Size: 281]
+/.htpasswd.js        [33m (Status: 403)[0m [Size: 281]
+/css                 [36m (Status: 301)[0m [Size: 321][34m [--> http://10.x.x.x:31331/css/][0m
+/favicon.ico         [32m (Status: 200)[0m [Size: 15086]
+/images              [36m (Status: 301)[0m [Size: 324][34m [--> http://10.x.x.x:31331/images/][0m
+/index.html          [32m (Status: 200)[0m [Size: 6092]
+/index.html          [32m (Status: 200)[0m [Size: 6092]
+/javascript          [36m (Status: 301)[0m [Size: 328][34m [--> http://10.x.x.x:31331/javascript/][0m
+/js                  [36m (Status: 301)[0m [Size: 320][34m [--> http://10.x.x.x:31331/js/][0m
+/partners.html       [32m (Status: 200)[0m [Size: 1986]
+/robots.txt          [32m (Status: 200)[0m [Size: 53]
+/robots.txt          [32m (Status: 200)[0m [Size: 53]
+/server-status       [33m (Status: 403)[0m [Size: 281]
+/what.html           [32m (Status: 200)[0m [Size: 2534]
